@@ -147,6 +147,23 @@ main{
     font-weight: 700;
 }
 
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap:100px;
+}
+.features .section-title{
+    padding-left: 20px;
+    border-left:  5px solid #FF900E;
+}
+.feature-content  .card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
 .fact-card .card{
     border-radius: 8px;
 border: 1px solid #FF900E;
@@ -168,6 +185,23 @@ justify-content: space-around;
     color: lightgray;
     font-size: 1.25rem;
     font-weight: 600;
+}
+.feature-img{
+    padding-left: 10px;
+}
+.feature-img img{
+    height: 1000px;
+}
+.ten-year{
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+
+}
+.ten-year h2{
+    font-size: 4rem;
 }
 .Sponsors{
     text-align: center;
