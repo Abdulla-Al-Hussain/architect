@@ -169,16 +169,37 @@ justify-content: space-around;
     font-size: 1.25rem;
     font-weight: 600;
 }
+.Sponsors{
+    text-align: center;
+}
+.sponsor-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.sponsor-container img{
+    width:165px;
+}
 
 /*responsive*/
 @media screen and (max-width:576px){
-    .team-container{
+    .team-container , .fact-card , .sponsor-container{
         flex-direction: column;
     }
     .teams-img{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap:1.5rem;
+    }
+    .fact-card{
+        padding:0;
+        gap:10px;
+    }
+    .sponsor-container{
+      align-items: center;
+    }
+    .sponsor-container img{
+        margin-bottom: 20px;
     }
 }
 
