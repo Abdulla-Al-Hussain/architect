@@ -43,7 +43,7 @@ nav li a{
     font-weight: 700;
     color: #131313;
 }
-.Banner-des{
+.Text-light-gray{
     color: #727272;
 }
 .btn-primary{
@@ -114,7 +114,7 @@ border: 0;
 
 main{
     max-width: 1150px;
-    margin: 0 auto ;
+    margin: 70px auto ;
 }
 .team-container{
     display: flex;
@@ -156,4 +156,11 @@ main{
     .team-container{
         flex-direction: column;
     }
+}
+
+
+.fact-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color:#131313;
 }
